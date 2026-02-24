@@ -1,0 +1,8 @@
+# Virtual environment
+.venv/
+venv/
+
+# File di input sensibili / locali
+*.ics
+InputFile.yaml
+output/
