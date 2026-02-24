@@ -4,7 +4,7 @@ import yaml
 import src.utilities as ut
 
 INPUT_PATH = "InputFile.yaml"
-OUTPUT_FILE = "CalendarioCSI_SsTrinita_fase2.ics"
+OUTPUT_FILE = "CalendarioCSI_SsTrinita_fase2_2025-2026.ics"
 
 # INPUT LOAD
 events = ut.load_events(INPUT_PATH)
@@ -21,13 +21,13 @@ for i, (title, desc, start, dur, location) in enumerate(events, 1):
 
 ics_lines.append("END:VCALENDAR")
 
-content = "\n".join(ics_lines) + "\n"
+content = "\r\n".join(ics_lines) + "\r\n"
 
 # EXPORT FILE FIANLE
 path = os.path.join(os.path.dirname(__file__), "output", OUTPUT_FILE)
 os.makedirs(os.path.dirname(path), exist_ok=True)
 
-with open(path, "w", encoding="ascii", errors="replace") as f:
+with open(path, "w", encoding="utf-8") as f:
     f.write(content)
 
 print(f"Creato file completo: {path}")
