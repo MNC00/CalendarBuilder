@@ -23,11 +23,11 @@ ics_lines.append("END:VCALENDAR")
 
 content = "\r\n".join(ics_lines) + "\r\n"
 
-# EXPORT FILE FIANLE
+# EXPORT FILE FINALE    
 path = os.path.join(os.path.dirname(__file__), "output", OUTPUT_FILE)
 os.makedirs(os.path.dirname(path), exist_ok=True)
 
-with open(path, "w", encoding="utf-8") as f:
+with open(path, "w", encoding="utf-8", newline="") as f:
     f.write(content)
 
 print(f"Creato file completo: {path}")
