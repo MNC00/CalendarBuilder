@@ -14,12 +14,22 @@ def ics_escape(text: str) -> str:
 
 
 def fold_line(line: str, limit: int = 75) -> str:
-    result = ""
-    while len(line) > limit:
-        result += line[:limit] + "\n "
-        line = line[limit:]
-    result += line
-    return result
+    folded_lines = []
+    current_line = ""
+    current_bytes = 0
+
+    for char in line:
+        char_bytes = len(char.encode("utf-8"))
+        if current_bytes + char_bytes > limit:
+            folded_lines.append(current_line)
+            current_line = " " + char
+            current_bytes = 1 + char_bytes
+        else:
+            current_line += char
+            current_bytes += char_bytes
+
+    folded_lines.append(current_line)
+    return "\r\n".join(folded_lines)
 
 
 def build_event(uid, title, desc, start_str, duration_min, location) -> list:
