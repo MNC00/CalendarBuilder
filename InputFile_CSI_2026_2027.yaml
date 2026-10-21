@@ -1,0 +1,102 @@
+events:
+  - title: "(Trasferta) Asd Don Bosco Testaccio - Ss. Trinita a Villa Chigi"
+    description: "Campionato CSI Roma"
+    start: "26/10/2026 20:15"
+    duration: 120
+    location: "Via Giovanni Battista Bodoni 57, 00153, Roma - Roby Junior Oratorio Don Bosco Testaccio"
+
+  - title: "(Casa) Ss. Trinita a Villa Chigi - Asd Primavalle"
+    description: "Campionato CSI Roma"
+    start: "02/11/2026 21:00"
+    duration: 120
+    location: "Via Filippo Marchetti 36, 00199, Roma - Oratorio San Gaspare Bertoni"
+
+  - title: "(Trasferta) Asd Santa Severa Pyrgi - Ss. Trinita a Villa Chigi"
+    description: "Campionato CSI Roma"
+    start: "06/11/2026 20:30"
+    duration: 120
+    location: "Lungomare Pyrgi, 00058, Santa Severa (RM) - Pyrgi Sporting Club"
+
+  - title: "(Casa) Ss. Trinita a Villa Chigi - Gorilla Apssd - Ets"
+    description: "Campionato CSI Roma"
+    start: "13/11/2026 21:00"
+    duration: 120
+    location: "Via Filippo Marchetti 36, 00199, Roma - Oratorio San Gaspare Bertoni"
+
+  - title: "(Trasferta) Italian Kick Off ASD Gir A - Ss. Trinita a Villa Chigi"
+    description: "Campionato CSI Roma"
+    start: "20/11/2026 20:30"
+    duration: 120
+    location: "Via Emanuele Ciaceri 37, 00156, Roma - Italian Kick Off"
+
+  - title: "(Casa) Ss. Trinita a Villa Chigi - La Botte Calcio a 5"
+    description: "Campionato CSI Roma"
+    start: "27/11/2026 21:00"
+    duration: 120
+    location: "Via Filippo Marchetti 36, 00199, Roma - Oratorio San Gaspare Bertoni"
+
+  - title: "(Trasferta) Oratorio San Giuseppe al Trionfale ASD Aps - Ss. Trinita a Villa Chigi"
+    description: "Campionato CSI Roma"
+    start: "07/12/2026 20:45"
+    duration: 120
+    location: "Via Giovanni Bovio 26, 00195, Roma - Oratorio San Giuseppe al Trionfale"
+
+  - title: "(Casa) Ss. Trinita a Villa Chigi - F.C. Santa Felicita"
+    description: "Campionato CSI Roma"
+    start: "11/12/2026 21:00"
+    duration: 120
+    location: "Via Filippo Marchetti 36, 00199, Roma - Oratorio San Gaspare Bertoni"
+
+  - title: "(Casa) Ss. Trinita a Villa Chigi - Sporting Club Cairate"
+    description: "Campionato CSI Roma"
+    start: "18/12/2026 21:00"
+    duration: 120
+    location: "Via Filippo Marchetti 36, 00199, Roma - Oratorio San Gaspare Bertoni"
+
+  - title: "(Trasferta) Sant’Atanasio Verde - Ss. Trinita a Villa Chigi"
+    description: "Campionato CSI Roma"
+    start: "09/01/2027 17:00"
+    duration: 120
+    location: "Via Achille Benedetti 11, 00157, Roma - Parrocchia Sant'Atanasio"
+
+  - title: "(Casa) Ss. Trinita a Villa Chigi - Santa Gemma ASD"
+    description: "Campionato CSI Roma"
+    start: "15/01/2027 21:00"
+    duration: 120
+    location: "Via Filippo Marchetti 36, 00199, Roma - Oratorio San Gaspare Bertoni"
+
+  - title: "(Trasferta) Spes Pietrara A - Ss. Trinita a Villa Chigi"
+    description: "Campionato CSI Roma"
+    start: "21/01/2027 20:30"
+    duration: 120
+    location: "Via Piave 12, 00015, Monterotondo (RM) - Don Ottorino Zanon"
+
+  - title: "(Casa) Ss. Trinita a Villa Chigi - U.S. Tufello Asd"
+    description: "Campionato CSI Roma"
+    start: "29/01/2027 21:00"
+    duration: 120
+    location: "Via Filippo Marchetti 36, 00199, Roma - Oratorio San Gaspare Bertoni"
+
+  - title: "(Trasferta) ASD Polisportiva Millesimo - Ss. Trinita a Villa Chigi"
+    description: "Campionato CSI Roma"
+    start: "05/02/2027 21:00"
+    duration: 120
+    location: "Via Del Fosso di Santo Spirito 76, 00135, Roma - Palmarola Club"
+
+  - title: "(Casa) Ss. Trinita a Villa Chigi - ASD Accademia S.S. Lazio C.5 B"
+    description: "Campionato CSI Roma"
+    start: "12/02/2027 21:00"
+    duration: 120
+    location: "Via Filippo Marchetti 36, 00199, Roma - Oratorio San Gaspare Bertoni"
+
+  - title: "(Trasferta) ASD Integra Sport 2013 - Ss. Trinita a Villa Chigi"
+    description: "Campionato CSI Roma"
+    start: "19/02/2027 21:00"
+    duration: 120
+    location: "Lungotevere G.A. Tahon de Revel 3, 00194, Roma - Circolo Sportivo Tahon de Revel"
+
+  - title: "(Casa) Ss. Trinita a Villa Chigi - Asd Atletico Villalba Futsal"
+    description: "Campionato CSI Roma"
+    start: "26/02/2027 21:00"
+    duration: 120
+    location: "Via Filippo Marchetti 36, 00199, Roma - Oratorio San Gaspare Bertoni"

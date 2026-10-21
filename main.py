@@ -3,8 +3,8 @@ import os
 import yaml
 import src.utilities as ut
 
-INPUT_PATH = "InputFile.yaml"
-OUTPUT_FILE = "CalendarioCSI_SsTrinita_fase2_2025-2026.ics"
+INPUT_PATH = "InputFile_CSI_2026_2027.yaml"
+OUTPUT_FILE = "CalendarioCSI_SsTrinita_fase1_2026-2027.ics"
 
 # INPUT LOAD
 events = ut.load_events(INPUT_PATH)
