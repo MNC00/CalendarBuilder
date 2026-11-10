@@ -1,10 +1,10 @@
 
 import os
-import yaml
 import src.utilities as ut
 
-INPUT_PATH = "InputFile_CSI_2026_2027.yaml"
-OUTPUT_FILE = "CalendarioCSI_SsTrinita_fase1_2026-2027.ics"
+INPUT_PATH = os.path.join(os.path.dirname(__file__), "InputFile_UNIeTRINI.yaml")
+OUTPUT_FILE = "CalendarioUNIeTRINI.ics"
+
 
 # INPUT LOAD
 events = ut.load_events(INPUT_PATH)
@@ -16,8 +16,8 @@ ics_lines = [
     "PRODID:-//Calendario Partite CSI Roma//IT",
 ]
 
-for i, (title, desc, start, dur, location) in enumerate(events, 1):
-    ics_lines.extend(ut.build_event(i, title, desc, start, dur, location))
+for i, event in enumerate(events, 1):
+    ics_lines.extend(ut.build_event(i, *event))
 
 ics_lines.append("END:VCALENDAR")
 

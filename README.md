@@ -32,14 +32,28 @@ pip install -r requirements.txt
 ```
 
 ## Utilizzo
-1. Modifica `InputFile.yaml` inserendo i tuoi eventi seguendo la struttura d'esempio.
+1. Modifica `InputFile_UNIeTRINI.yaml` inserendo i tuoi eventi seguendo la struttura d'esempio. Per usare un altro file, cambia `INPUT_PATH` in `main.py`.
 2. Esegui lo script principale:
 
 ```bash
 python main.py
 ```
 
-3. Troverai il file `.ics` generato nella cartella `output/`.
+3. Troverai `output/CalendarioUNIeTRINI.ics` (nome configurabile con `OUTPUT_FILE` in `main.py`).
+
+Su Windows, se `python` non trova `yaml`, usa l'ambiente virtuale del progetto:
+
+```powershell
+.\.venv\Scripts\python.exe -m pip install -r requirements.txt
+.\.venv\Scripts\python.exe main.py
+```
+
+| Tipo di evento | Campi YAML | Significato |
+| --- | --- | --- |
+| Con orario | `start: "12/11/2026 21:00"`, `duration: 120` | Durata in minuti |
+| Giornaliero o di piu giorni | `start: "04/12/2026"`, `end: "08/12/2026"` | Entrambe le date sono incluse; non serve `duration` |
+
+Per un solo giorno, usa la stessa data in `start` ed `end`. `location` e facoltativo.
 
 ## Esempio di input (`InputFile.yaml`)
 ```yaml

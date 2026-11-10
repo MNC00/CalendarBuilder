@@ -1,0 +1,63 @@
+events:
+  - title: "Preghiera e meditazione (cappellina)"
+    description: "UNIeTRINI"
+    start: "05/11/2026 21:00"
+    duration: 120
+
+  - title: "Magnifica humanitas: incontro con Nicoletta Dentico"
+    description: "UNIeTRINI"
+    start: "12/11/2026 21:00"
+    duration: 120
+
+  - title: "\"C'è un prima e un dopo; un incontro che illumina la vita\": con Michele di Bari"
+    description: "UNIeTRINI"
+    start: "17/11/2026 21:00"
+    duration: 120
+
+  - title: "Magnifica Humanitas: incontro coi giovani palestinesi di Nablus"
+    description: "UNIeTRINI"
+    start: "22/11/2026 20:00"
+    duration: 120
+
+  - title: "PGSTIMM preparazione campi Bosco"
+    description: "UNIeTRINI"
+    start: "01/12/2026 21:00"
+    duration: 120
+
+  - title: "PGSTIMM a Verona: formazione animatori e lavori a Sezano e Bosco"
+    description: "Formazione e lavori"
+    start: "04/12/2026"
+    end: "08/12/2026"
+    location: "Verona, Sezano e Bosco"
+
+  - title: "Preghiera e meditazione"
+    description: "UNIeTRINI"
+    start: "10/12/2026 21:00"
+    duration: 120
+
+  - title: "\"C'è un prima e un dopo; un incontro che illumina la vita\": con Michele di Bari"
+    description: "UNIeTRINI"
+    start: "15/12/2026 21:00"
+    duration: 120
+
+  - title: "PGSTIMM preparazione campi Bosco"
+    description: "UNIeTRINI"
+    start: "22/12/2026 21:00"
+    duration: 120
+
+  - title: "Campo adolescenti biennio (come animatori)"
+    description: "Campo"
+    start: "27/12/2026"
+    end: "30/12/2026"
+
+  - title: "Capodanno a Bosco"
+    description: "Evento"
+    start: "30/12/2026"
+    end: "02/01/2027"
+    location: "Bosco"
+
+  - title: "Campo triennio a Bosco"
+    description: "Campo"
+    start: "02/01/2027"
+    end: "05/01/2027"
+    location: "Bosco"
